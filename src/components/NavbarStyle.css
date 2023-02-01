@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+}
+
+#hover_effect:hover{
+    text-shadow: 2px 2px 2px blue;
+}
+
+.header-bg {
+    background-image: linear-gradient(to right, #0c0c0c,  rgba(237, 230, 230, 0.977), #070729);
+    opacity: 0.4;
+    transition: 1s;
+}
+
+
+.nav_menu {
+    display: flex;
+    opacity: 0.93;
+    
+    
+}
+
+.nav_menu li {
+    padding: 0 1.2rem;
+    list-style: none;
+}
+
+.nav_menu li:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+.nav_menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration-color: dimgrey;
+}
+
+.home_icon {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_menu {
+        flex-direction: column;
+        text-decoration: none;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s; 
+        background-color: black;
+    }
+
+    .nav_menu.active {
+        left: 0;
+
+    }
+
+    .nav_menu li {
+        padding-top: 1rem;
+    }
+
+    .nav_menu li a {
+        font-size: 1.5rem;
+    }
+
+    .home_icon {
+        display: initial
+    }
+};

@@ -1,0 +1,79 @@
+.main_pro {
+    width: 100%;
+    padding: 6rem 1rem;
+    background: black;
+}
+
+.card_container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+@media screen and (max-width: 740px) {
+    .card_container {
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        position: relative;
+        right: 2rem;
+    }
+
+    .para {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 1rem 0;
+    }
+  
+
+
+}
+
+
+.card {
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+
+.card:hover {
+    background-color: rgb(57, 55, 55);
+}
+
+
+.card h3 {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+
+.card p {
+    padding: 12px 0;
+}
+
+.para {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.card_container a {
+    display: flex;
+    justify-content: center;
+    /* background: yellow; */
+    border: 3px solid yellow;
+    text-shadow: 0 0 5px #ffff00, 0 0 5px #ffff00;
+    margin: 1rem 2rem;
+    padding: 0.50rem 1rem;
+    font-weight: 600;
+    color: black;
+}
+

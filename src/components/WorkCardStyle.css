@@ -1,0 +1,92 @@
+.work_container h1 {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.project_container {
+    /* background-color: blue; */
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.project_card {
+    background: rgb(la, 19, 19);
+    padding: 1.2rem 1rem;
+    border: 2px solid white;
+    transition: all 2s ease-in;
+}
+
+
+.project_card:hover {
+    border: none;
+    transform: scale(1.5);
+}
+
+.project_card img {
+    width: 100%;
+}
+
+.project_card h2 {
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.pro_details p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.btn{
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 10vw;
+    height: 8vh;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 0 2px 0 #ffff00 inset, 0 0 37px 0 #ffff00;
+}
+
+.btn:hover{
+    background-color: rgb(208, 208, 101);
+    cursor: pointer;
+}
+
+
+
+    
+
+
+@media screen and (max-width: 620px) {
+
+    .project_container {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .pro_details{
+        text-align: justify;
+    }
+
+    .btn{
+        width: 20vw;
+        height: 10vh;
+        margin: auto;
+        padding: 0.7rem 0.9rem;
+    
+    }
+}
+
+    
+

@@ -1,0 +1,45 @@
+.col label{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.row{
+    margin-top: 3rem;
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    width: 60vw;
+    margin: auto;
+}
+
+.col input, textarea{
+    margin-bottom: 1rem;
+    padding: 8px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(225, 225, 225, 0.1);
+    border-color: rgba(225, 225, 225, 0.1);
+    color: white;
+}
+
+@media screen and (max-width:620px){
+    .col{
+        padding: 1rem 1rem;
+        width: 60vw;
+        margin: auto;
+    }
+
+    .col input, textarea{
+        margin-bottom: 1rem;
+        padding: 5px 10px;
+        font-size: 1rem;
+        background-color: rgba(225, 225, 225, 0.1);
+        border-color: rgba(225, 225, 225, 0.1);
+        color: white;
+    }
+}
+
+
