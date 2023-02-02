@@ -14,7 +14,7 @@ const Project = () => {
         <div>
             <Navbar />
             <headingPro.Provider value={"PROJECTS."}>
-                <textPro.Provider value={"Some of my most recent works"}>
+                <textPro.Provider value={"Some of my most recent works and Important"}>
 
                     <ProjBg />
 
