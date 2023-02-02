@@ -12,7 +12,7 @@ const Contact = () => {
         <div>
             <Navbar />
             <headingContact.Provider value={"CONTACT."}>
-                <textContact.Provider value={"Let's have a chat"}>
+                <textContact.Provider value={"Let's have a chat and message"}>
 
                     <ProjBg />
 
